@@ -17,7 +17,7 @@ body {
 .section {
     width: 495px;
     float: left;
-    padding: 40px 0 10px 0;
+    padding: 20px 0 0 0;
     box-sizing: border-box;
     border: 1px solid blue;
 }
@@ -26,7 +26,7 @@ body {
     box-sizing: border-box; 
     float: right; 
     width: 455px;  
-    padding: 40px 0 165px 0;
+    padding: 20px 0 182px 0;
     margin: 0 0 0 10px;
     border: 1px solid red;
 }
@@ -40,17 +40,26 @@ body {
 #article {
     background: #777; 
     width: 90%;
-    margin: 0 auto; 
-    padding: 10px 10px 10px 10px;  
+    margin: 20px auto; 
+    padding: 10px 15px; 
 }
 
 #item1 {
     background-color: #ebebeb;  
-    padding: 10px 10px 10px 10px;      
+    margin: 10px 0 0 0; 
+    padding: 2px 0; 
+}
+
+#item1 p {
+    margin: 0.5em 0 0.5em 0;
 }
 
 #item2 {
     background-color: #ebebeb;  
-    padding: 10px 10px 10px 10px;  
-    margin: 5px 0 5px 0;    
+    margin: 10px 0;   
+    padding: 2px 0;
+}
+
+#item2 p {
+    margin: 0.5em 0 0.5em 0;
 }
