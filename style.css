@@ -1,0 +1,56 @@
+h1 {
+    color:blue;
+}
+
+body {
+    width: 960px;
+    background: #777;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.block {
+    clear: both;
+    padding: 20px 0 20px 0;
+}
+
+.section {
+    width: 495px;
+    float: left;
+    padding: 40px 0 10px 0;
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+
+.aside {
+    box-sizing: border-box; 
+    float: right; 
+    width: 455px;  
+    padding: 40px 0 165px 0;
+    margin: 0 0 0 10px;
+    border: 1px solid red;
+}
+
+.align {
+    text-align: center;
+    background-color: #ebebeb;  
+    margin: 5px 0 5px 0;  
+}
+
+#article {
+    background: #777; 
+    width: 90%;
+    margin: 0 auto; 
+    padding: 10px 10px 10px 10px;  
+}
+
+#item1 {
+    background-color: #ebebeb;  
+    padding: 10px 10px 10px 10px;      
+}
+
+#item2 {
+    background-color: #ebebeb;  
+    padding: 10px 10px 10px 10px;  
+    margin: 5px 0 5px 0;    
+}
